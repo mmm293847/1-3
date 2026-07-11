@@ -34,7 +34,7 @@ Google Form 응답
 
 ### 1-3. 도구 1 — 워크플로우 구성
 
----
+```
 Make
 - Trigger: Google Form - Watch Responses in Google Sheets
 - 조건 분기(Filter/Router): Router - Filter 1: 만족 응답(전반적인 만족도>=3) / Filter 2: 불만족 응답(전반적인 만족도<3)
@@ -48,7 +48,8 @@ Route1
 Route2
 → Subject: 구글시트에 불만족 응답이 작성되었습니다.
 → Content: 불만족시트 연결
----
+```
+
 
 ### 1-4. 도구 1 — 화면 캡처
 
